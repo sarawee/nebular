@@ -72,7 +72,9 @@ export class NbCalendarRangeYearCellComponent<D> extends NbBaseCalendarRangeCell
 		if (this.selectedValue) {
 			return this.dateService.isSameYearSafe(this.date, this.selectedValue.start);
 		}
-	}
+
+    return false;
+  }
 
 	@HostBinding('class.today')
 	get today(): boolean {
