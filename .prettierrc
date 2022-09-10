@@ -1,26 +1,5 @@
 {
-	"arrowParens": "avoid",
-	"bracketSpacing": true,
-	"printWidth": 140,
-	"semi": true,
+	"printWidth": 120,
 	"singleQuote": true,
-	"tabWidth": 2,
-	"trailingComma": "es5",
-	"useTabs": true,
-	"endOfLine": "crlf",
-	"overrides": [
-		{
-			"files": "*.html",
-			"options": {
-				"parser": "html",
-				"htmlWhitespaceSensitivity": "ignore"
-			}
-		},
-		{
-			"files": "*.json",
-			"options": {
-				"parser": "json"
-			}
-		}
-	]
+	"trailingComma": "all"
 }
